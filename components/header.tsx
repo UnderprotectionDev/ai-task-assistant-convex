@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Container from "./container";
+import { Container } from "./container";
 import { UserButton } from "@clerk/nextjs";
 import { Menu } from "./menu";
 

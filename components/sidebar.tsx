@@ -9,7 +9,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FC } from "react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { SignOutButton } from "@clerk/nextjs";
@@ -42,7 +41,7 @@ interface Props {
   closeSheet?: () => void;
 }
 
-const Sidebar: FC<Props> = ({ closeSheet }) => {
+export function Sidebar({ closeSheet }: Props) {
   const pathname = usePathname();
 
   return (
@@ -82,6 +81,4 @@ const Sidebar: FC<Props> = ({ closeSheet }) => {
       </SignOutButton>
     </nav>
   );
-};
-
-export default Sidebar;
+}

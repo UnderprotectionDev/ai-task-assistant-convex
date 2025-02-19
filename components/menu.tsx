@@ -10,7 +10,7 @@ import {
 } from "./ui/sheet";
 import { AlignLeft } from "lucide-react";
 import Link from "next/link";
-import Sidebar from "./sidebar";
+import { Sidebar } from "./sidebar";
 
 export function Menu() {
   const [isOpen, setIsOpen] = useState(false);
