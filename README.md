@@ -23,15 +23,23 @@ A next-generation AI-powered task assistant platform built with Next.js and a re
 
 <div align="center">
 
-| Feature                 | Description                                               |
-| ----------------------- | --------------------------------------------------------- |
-| 🤖 AI-Powered Tasks     | Automate and manage tasks using advanced AI algorithms    |
-| ⚡ Real-Time Updates    | Experience instantaneous data syncing with Convex backend |
-| 🎨 Modern & Responsive  | Sleek, intuitive UI built with Next.js and Tailwind CSS   |
-| 🔒 Secure Collaboration | Robust security and seamless data management              |
-| 🔄 Effortless Scaling   | Designed to scale with your workflow and team             |
+| Feature                         | Description                                                               |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| 🤖 AI Task Assistant            | Intelligent task management leveraging advanced AI algorithms.            |
+| 💬 Chat-Based CRUD              | Perform natural language CRUD operations via an intuitive chat interface. |
+| 📊 Data Analysis & Optimization | Gain data-driven insights with analysis and optimization suggestions.     |
+| 🔧 Vercel AI SDK Integration    | Access robust tool-calling capabilities powered by Vercel AI SDK.         |
+| ⚡ Real-time Synchronization    | Enjoy seamless, real-time task updates powered by Convex DB.              |
+| 🔐 Secure Authentication        | Ensure secure access with Clerk-powered authentication.                   |
+| 📈 Responsive Dashboard         | Explore metrics and productivity insights via a modern dashboard.         |
 
 </div>
+
+## 🌟 Tech Highlights
+
+- Type-safe API layer ensuring robust and maintainable code.
+- Modern UI components built with shadcn/ui and styled with Tailwind CSS.
+- Edge-ready deployment enabling fast, scalable, and reliable performance.
 
 ## 🚀 Quick Start
 
