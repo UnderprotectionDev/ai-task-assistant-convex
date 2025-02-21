@@ -123,6 +123,14 @@ Visit [http://localhost:3000](http://localhost:3000) to explore the application
 
 ![Tasks View](/public/project-image/tasks.png)
 
+### Chatbot View
+
+![Chatbot View](/public/project-image/chatbot-01.png)
+
+![Chatbot View](/public/project-image/chatbot-02.png)
+
+![Chatbot View](/public/project-image/chatbot-03.png)
+
 </div>
 
 ## 🔐 Environment Variables
