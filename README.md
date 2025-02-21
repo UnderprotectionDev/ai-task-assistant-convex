@@ -125,14 +125,20 @@ Visit [http://localhost:3000](http://localhost:3000) to explore the application
 
 To run this project, add the following environment variables to your `.env` file:
 
-| Variable               | Description                                    |
-| ---------------------- | ---------------------------------------------- |
-| `CONVEX_URL`           | URL for the Convex backend service             |
-| `OPENAI_API_KEY`       | API key for OpenAI integration (if applicable) |
-| `NEXT_PUBLIC_BASE_URL` | Base URL for your deployment                   |
+| Variable                            | Description                                           |
+| ----------------------------------- | ----------------------------------------------------- |
+| `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` | Clerk publishable key for client-side authentication  |
+| `CLERK_SECRET_KEY`                  | Clerk secret key for server-side authentication       |
+| `CLERK_ISSUER_URL`                  | Clerk issuer URL (Add to Convex Environment Variable) |
+| `CONVEX_DEPLOYMENT`                 | Convex deployment identifier                          |
+| `NEXT_PUBLIC_CONVEX_URL`            | URL for the Convex backend service                    |
+| `OPENAI_API_KEY`                    | API key for OpenAI integration (if applicable)        |
 
 ```
-CONVEX_URL="your-convex-url"
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
+CLERK_SECRET_KEY="your-clerk-secret-key"
+CLERK_ISSUER_URL="Add to Convex Environment Variable"
+CONVEX_DEPLOYMENT="your-convex-deployment"
+NEXT_PUBLIC_CONVEX_URL="your-convex-url"
 OPENAI_API_KEY="your-openai-api-key"
-NEXT_PUBLIC_BASE_URL="http://localhost:3000"
 ```
