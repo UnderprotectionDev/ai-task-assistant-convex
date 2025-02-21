@@ -8,9 +8,11 @@ A next-generation AI-powered task assistant platform built with Next.js and a re
 
 [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Convex](https://img.shields.io/badge/Convex-FF4F64?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
-[![Clerk](https://img.shields.io/badge/Clerk-3068B7?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
+[![Convex](https://img.shields.io/badge/Convex-000000?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
+[![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![AI SDK](https://img.shields.io/badge/AI_SDK-000000?style=for-the-badge&logo=ai&logoColor=white)](https://sdk.vercel.ai/)
+[![Zod](https://img.shields.io/badge/Zod-3068B7?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
