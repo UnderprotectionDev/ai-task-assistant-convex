@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# AI Task Assistant Convex 🚀
 
-First, run the development server:
+A next-generation AI-powered task assistant platform built with Next.js and a real-time Convex backend, designed to boost your productivity and streamline your workflow.
+
+![Landing Page](/public/project-image/landingpage.png)
+
+[![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Convex](https://img.shields.io/badge/Convex-FF4F64?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
+[![Clerk](https://img.shields.io/badge/Clerk-3068B7?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Shadcn/ui](https://img.shields.io/badge/Shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
+</div>
+
+## ✨ Features
+
+<div align="center">
+
+| Feature                 | Description                                               |
+| ----------------------- | --------------------------------------------------------- |
+| 🤖 AI-Powered Tasks     | Automate and manage tasks using advanced AI algorithms    |
+| ⚡ Real-Time Updates    | Experience instantaneous data syncing with Convex backend |
+| 🎨 Modern & Responsive  | Sleek, intuitive UI built with Next.js and Tailwind CSS   |
+| 🔒 Secure Collaboration | Robust security and seamless data management              |
+| 🔄 Effortless Scaling   | Designed to scale with your workflow and team             |
+
+</div>
+
+## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/ai-task-assistant-convex.git
+
+# Navigate into the project directory
+cd ai-task-assistant-convex
+
+# Install dependencies
+npm install
+
+# Create your environment variables file
+cp .env.example .env
+
+# (Optional) Start the local Convex development server
+npx convex dev
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to explore the application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<details>
+<summary>Click to expand tech stack details</summary>
 
-## Learn More
+### Core Framework
 
-To learn more about Next.js, take a look at the following resources:
+- **[Next.js](https://nextjs.org/)** - React framework with App Router for SSR and static pages
+- **[TypeScript](https://www.typescriptlang.org/)** - For robust type safety and improved development experience
+- **[React](https://reactjs.org/)** - Build dynamic UIs with modern React features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Backend & Data
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **[Convex](https://www.convex.dev/)** - Serverless, real-time backend to power dynamic data operations
 
-## Deploy on Vercel
+### Authentication
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **[Clerk](https://clerk.com/)** - Modern authentication and user management solution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### AI
+
+- **[AI SDK](https://sdk.vercel.ai/)** - Powerful AI SDK for building AI-powered features
+- **[OpenAI](https://openai.com/)** - (Optional) Integrate advanced AI features for task automation
+
+### Form Management & Validation
+
+- **[Zod](https://zod.dev/)** - TypeScript-first schema validation with static type inference
+
+### State Management
+
+- **[React Query](https://tanstack.com/query/latest)** - Powerful data synchronization and state management
+
+### UI & Styling
+
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for fast and responsive design
+- **[shadcn/ui](https://ui.shadcn.com/)** - Pre-built, modern UI components to accelerate development
+- **[Lucide Icons](https://lucide.dev/)** - Icon library for clean and customizable visuals
+
+### Development & Deployment
+
+- **[ESLint](https://eslint.org/)** - Enforces code quality and consistency
+- **[Prettier](https://prettier.io/)** - Automatic code formatting
+- **[Vercel](https://vercel.com/)** - Lightning-fast deployment and hosting platform
+
+</details>
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Dashboard View
+
+![Dashboard View](/public/project-image/dashboard.png)
+
+</div>
+
+## 🔐 Environment Variables
+
+To run this project, add the following environment variables to your `.env` file:
+
+| Variable               | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `CONVEX_URL`           | URL for the Convex backend service             |
+| `OPENAI_API_KEY`       | API key for OpenAI integration (if applicable) |
+| `NEXT_PUBLIC_BASE_URL` | Base URL for your deployment                   |
+
+```
+CONVEX_URL="your-convex-url"
+OPENAI_API_KEY="your-openai-api-key"
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+```
