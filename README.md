@@ -119,6 +119,10 @@ Visit [http://localhost:3000](http://localhost:3000) to explore the application
 
 ![Dashboard View](/public/project-image/dashboard.png)
 
+### Tasks View
+
+![Tasks View](/public/project-image/tasks.png)
+
 </div>
 
 ## 🔐 Environment Variables
